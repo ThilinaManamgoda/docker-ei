@@ -1,17 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <datasources-configuration xmlns:svns="http://org.wso2.securevault/configuration">
-  <providers>
-    <provider>org.wso2.carbon.ndatasource.rdbms.RDBMSDataSourceReader</provider>
-  </providers>
-  <datasources>
-    <datasource>
-      <name>ACTIVITI_DB</name>
-      <description>The datasource used for activiti engine</description>
-      <jndiConfig>
-        <name>jdbc/ActivitiDB</name>
-      </jndiConfig>
-      <definition type="RDBMS">
-        <configuration>
+
+    <providers>
+        <provider>org.wso2.carbon.ndatasource.rdbms.RDBMSDataSourceReader</provider>
+    </providers>
+
+    <datasources>
+
+        <datasource>
+            <name>ACTIVITI_DB</name>
+            <description>The datasource used for activiti engine</description>
+            <jndiConfig>
+                <name>jdbc/ActivitiDB</name>
+            </jndiConfig>
+            <definition type="RDBMS">
+                <configuration>
           <url>jdbc:mysql://mysql:3306/WSO2_ACTIVITY_DB?autoReconnect=true&amp;useSSL=false</url>
           <username>root</username>
           <password>root</password>
