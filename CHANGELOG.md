@@ -42,3 +42,15 @@ For detailed information on the tasks carried out during this release, please se
 - Use AdoptOpenJDK version `jdk8u212-b03` in Alpine, CentOS, Ubuntu based Docker resources
 
 [v6.5.0.3]: https://github.com/wso2/docker-ei/compare/v6.5.0.2...v6.5.0.3
+
+## [v6.6.0.1] - 2019-12-20
+
+### Added
+- Per profile Docker resources of WSO2 Enterprise Integrator v6.6.0 for Alpine, CentOS and Ubuntu
+- Remove integrator-bps-analytics & integrator-broker-bps-analytics
+- Remove WSO2 EI msf4j profile
+
+### Changed
+- Use AdoptOpenJDK version 11 in Alpine, CentOS, Ubuntu based Docker resources
+
+[v6.6.0.1]: https://github.com/wso2/docker-ei/compare/v6.5.0.3...v6.6.0.1

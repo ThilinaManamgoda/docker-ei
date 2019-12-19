@@ -10,10 +10,11 @@ Business Process Server profile for WSO2 Enterprise Integrator 6.6.0.
 
 ## How to build an image and run
 
-##### 1. Checkout this repository into your local machine using the following Git client command.
+##### 1. Checkout this repository into your local machine using the following Git client command and checkout branch v6.6.0.1.
 
 ```
 git clone https://github.com/wso2/docker-ei.git
+git checkout v6.6.0.1
 ```
 
 >The local copy of the `dockerfiles/ubuntu/business-process` directory will be referred to as `BPS_DOCKERFILE_HOME` from this point onwards.
