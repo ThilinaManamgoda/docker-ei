@@ -29,7 +29,7 @@
      Instead, extract the zip file and directly browse to `docker-ei-<released-version>/docker-compose/integrator-broker-analytics` folder. 
 
      > If you are to try out an already released tag, after executing 2nd step, checkout the relevant tag, 
-     i.e. for example: <br> git checkout tags/v6.5.0.1 and continue below steps.
+     i.e. for example: <br> git checkout tags/v6.6.0.1 and continue below steps.
 
   3. Execute the `deploy.sh` script to start the deployment.
      ```

@@ -29,7 +29,7 @@
      Instead, extract the zip file and directly browse to `docker-ei-<released-version>/docker-compose/integrator-broker-analytics` folder. 
      
      > If you are to try out an already released tag, after executing 2nd step, checkout the relevant tag, 
-     i.e. for example: <br> git checkout tags/v6.5.0.1 and continue below steps.
+     i.e. for example: <br> git checkout tags/v6.6.0.1 and continue below steps.
 
   3. [Optional] If you are using WSO2 product Docker images with WSO2 updates, replace the WSO2 product Docker image names
     (relevant `image` attribute under each WSO2 product profile service) in the Docker Compose deployment definition.
